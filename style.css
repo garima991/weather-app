@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    line-height: 1.5;
+}
+
+h2, h3, h4{
+    color:#240831;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+
+.container{
+    padding: 40px;
+    width: fit-content;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(211, 164, 225), rgb(143, 96, 223));
+    border-radius: 20px;
+    box-shadow: 2px 3px 8px rgb(46, 46, 46);
+}
+
+.search-option{
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+.search-option input{
+    background-color: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+    padding: 18px;
+    color: rgb(31, 31, 31);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    box-shadow: 2px 2px 4px rgb(82, 82, 82);
+}
+
+.search-option button{
+    padding: 20px;
+    color: rgb(20, 20, 20);
+    background-color: #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 2px 2px 4px rgb(82, 82, 82);
+}
+
+.search-option button:hover{
+    background-color: #4f0e6c; 
+    color: #fff;
+}
+
+.weather-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-container img{
+    margin: 20px;
+}
+
+.details{
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 60px;
+}
+
+.details .box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+.box img{
+    width: 50%;
+    margin: auto;
+    color: black;
+}
+
+#humid, #wind {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 7px;
+
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+}

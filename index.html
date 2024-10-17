@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b0df84ba90.js" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-option">
+            <input type = "text" placeholder = "Search" id = "locInput">
+            <button id = "searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="weather-container">
+            <img src = "/assets/exclamation-mark.png" alt="" id = "weatherIcon">
+            <h2 id ="temp">Temperature</h2>
+            <h4 id ="city">City</h4>
+        </div>
+
+        <div class="details">
+            <div class="box">
+                <img src="/assets/humidity.png" alt="">
+                <h3 id = "humid">Humidity</h3>
+            </div>
+            <div class="box">
+                <img src="/assets/wind.png" alt="">
+                <h3 id = "wind">Wind</h3>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
